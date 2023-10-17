@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="839b91a7-7df1-4930-8642-96830b453897" name="Changes" comment="ahora muestra bien las habilidades de Yennefer">
+    <list default="true" id="839b91a7-7df1-4930-8642-96830b453897" name="Changes" comment="modifica bien el dato de la edad y lo escribe en el fichero">
       <change beforePath="$PROJECT_DIR$/src/main/java/MiLectorJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MiLectorJson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696527931285</updated>
-      <workItem from="1696527933705" duration="13824000" />
+      <workItem from="1696527933705" duration="14515000" />
     </task>
     <task id="LOCAL-00001" summary="Añadido el JSON de Jeneffer">
       <created>1697464720105</created>
@@ -64,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697520373042</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="modifica bien el dato de la edad y lo escribe en el fichero">
+      <created>1697521989870</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697521989870</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +91,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Añadido el JSON de Jeneffer" />
     <MESSAGE value="ahora muestra bien las habilidades de Yennefer" />
-    <option name="LAST_COMMIT_MESSAGE" value="ahora muestra bien las habilidades de Yennefer" />
+    <MESSAGE value="modifica bien el dato de la edad y lo escribe en el fichero" />
+    <option name="LAST_COMMIT_MESSAGE" value="modifica bien el dato de la edad y lo escribe en el fichero" />
   </component>
 </project>
