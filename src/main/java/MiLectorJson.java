@@ -28,6 +28,23 @@ public class MiLectorJson {
                 System.out.println("---" + habilidades.getString(i));
             }
 
+            //modifica un dato
+            objetoJSON.put("edad", 30);
+
+            //añade un trabajo nuevo
+
+            // Crear un nuevo trabajo
+            JSONObject nuevoTrabajo = new JSONObject();
+            nuevoTrabajo.put("puesto", "Líder de Proyecto");
+            nuevoTrabajo.put("añoInicio", 2023);
+            nuevoTrabajo.put("añoFin", "Actualidad");
+            nuevoTrabajo.put("empresa", "TopTech");
+
+            // Añadir el nuevo trabajo al arreglo de trabajos
+            JSONArray trabajos = objetoJSON.getJSONArray("trabajos");
+            trabajos.put(nuevoTrabajo);
+            //y lo escribe en el fichero JSON. El 4 en el toString es para que el fichero quede indentado
+            Files.write(Paths.get(rutaAlFichero), objetoJSON.toString(4).getBytes());
         } catch (IOException e) {
             System.out.println("ERROR LEYENDO EL ARCHIVO!");
         }
