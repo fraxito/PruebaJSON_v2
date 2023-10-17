@@ -28,6 +28,10 @@ public class MiLectorJson {
                 System.out.println("---" + habilidades.getString(i));
             }
 
+            //modifica un dato
+            objetoJSON.put("edad", 30);
+            //y lo escribe en el fichero JSON. El 4 en el toString es para que el fichero quede indentado
+            Files.write(Paths.get(rutaAlFichero), objetoJSON.toString(4).getBytes());
         } catch (IOException e) {
             System.out.println("ERROR LEYENDO EL ARCHIVO!");
         }
