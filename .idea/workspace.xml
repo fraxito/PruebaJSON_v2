@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="839b91a7-7df1-4930-8642-96830b453897" name="Changes" comment="modifica bien el dato de la edad y lo escribe en el fichero">
+    <list default="true" id="839b91a7-7df1-4930-8642-96830b453897" name="Changes" comment="añade un trabajo a la lista de los trabajos">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MiLectorJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MiLectorJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datosUsuario.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datosUsuario.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +33,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,7 +50,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696527931285</updated>
-      <workItem from="1696527933705" duration="14515000" />
+      <workItem from="1696527933705" duration="16740000" />
     </task>
     <task id="LOCAL-00001" summary="Añadido el JSON de Jeneffer">
       <created>1697464720105</created>
@@ -71,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697521989870</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="añade un trabajo a la lista de los trabajos">
+      <created>1697522962075</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697522962075</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +101,7 @@
     <MESSAGE value="Añadido el JSON de Jeneffer" />
     <MESSAGE value="ahora muestra bien las habilidades de Yennefer" />
     <MESSAGE value="modifica bien el dato de la edad y lo escribe en el fichero" />
-    <option name="LAST_COMMIT_MESSAGE" value="modifica bien el dato de la edad y lo escribe en el fichero" />
+    <MESSAGE value="añade un trabajo a la lista de los trabajos" />
+    <option name="LAST_COMMIT_MESSAGE" value="añade un trabajo a la lista de los trabajos" />
   </component>
 </project>

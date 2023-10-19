@@ -45,8 +45,36 @@ public class MiLectorJson {
             trabajos.put(nuevoTrabajo);
             //y lo escribe en el fichero JSON. El 4 en el toString es para que el fichero quede indentado
             Files.write(Paths.get(rutaAlFichero), objetoJSON.toString(4).getBytes());
+
+            String habilidadBuscada = "java"; // Esto puedes cambiarlo por un scan que le pida el dato al usuario
+            if (tieneHabilidad(objetoJSON, habilidadBuscada)) {
+                System.out.println("Yennefer tiene la habilidad: " + habilidadBuscada);
+            } else {
+                System.out.println("Yennefer no tiene la habilidad: " + habilidadBuscada);
+            }
+
+
         } catch (IOException e) {
             System.out.println("ERROR LEYENDO EL ARCHIVO!");
         }
     }
+
+    /**
+     * Verifica si el JSONObject proporcionado contiene la habilidad dada.
+     * @param jsonObject el objeto JSON a examinar.
+     * @param habilidad la habilidad a buscar.
+     * @return true si el JSON contiene la habilidad, false en caso contrario.
+     */
+    public static boolean tieneHabilidad(JSONObject jsonObject, String habilidad) { //static?
+        JSONArray habilidades = jsonObject.getJSONArray("habilidades");
+
+        for (int i = 0; i < habilidades.length(); i++) {
+            if (habilidades.getString(i).equalsIgnoreCase(habilidad)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
 }
